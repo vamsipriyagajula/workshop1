@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        .hello{
+           background-color: rgb(218, 33, 61); 
+           color: rgb(1, 11, 19);
+        }
+       #good{
+         font-size: 50px;
+       }
+        .gaps{
+            height:100px;
+            width: 100px;
+            border: 1px solid black;
+            padding: 50px;
+            margin: 20px;
+        }
+        @media (max-width:480px){
+            .gaps{
+                background-color: yellowgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+   <!-- Iam using inline css-->  
+    <h1 style="color:rgb(83, 17, 146);">Ojas Gambeera</h1>
+   <!--Internal css-->
+   <!--we can define internal css by using id and class name
+   class name will be defined by .
+   id will be defined by #-->
+   <h2 class="hello">they call him OG</h2>
+   <h3 id="good">Samurai</h3>
+   <h4 class="omi">fight ready</h4>
+   <div class="gaps" ></div>
+</body>
+</html>
